@@ -31,9 +31,9 @@ h1 {
   color: #89b4fa;
   background: linear-gradient(
     to bottom,
-    #4d91ff 0%,
-    #89b4fa 65%,
-    #b4c7f5 100%
+    #146af5 0%,
+    #146af5 10%,
+    #ffffff 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -43,14 +43,14 @@ h1 {
 .bobby span {
   display: inline-block;
   animation: wave 1.2s ease-in-out infinite alternate;
-  animation-delay: calc(var(--i) * -0.1s);
+  animation-delay: calc(var(--i) * -0.15s);
 }
 
 @keyframes wave {
-  from {
+  0% {
     transform: translateY(-10%);
   }
-  to {
+  100% {
     transform: translateY(10%);
   }
 }
@@ -60,7 +60,7 @@ h1 {
   border: 2px solid #89b4fa;
   border-radius: 9px;
   color: #89b4fa;
-  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .surface1 span {
@@ -71,28 +71,40 @@ h1 {
 }
 
 .surface1:hover {
-  animation: vibrate 0.2s linear infinite;
+  animation: updown 1.5s ease-in-out infinite;
+  transition: transform 1.5s;
 }
 
-@keyframes vibrate {
-  0% { transform: translate(0, 0) }
-  20% { transform: translate(-0.05em, 0.05em) }
-  40% { transform: translate(-0.05em, -0.05em) }
-  60% { transform: translate(0.05em, -0.05em) }
-  80% { transform: translate(0.05em, 0.05em) }
-  100% { transform: translate(0, 0) }
-}
-
-.surface1:active {
-  transform: translateY(0.125em);
-}
-
-@media (max-width: 600px) 
-  body {
-    padding-top: 30px;
+@keyframes updown {
+  0%, 100% {
+    transform: scale(1.15) translateY(-0.7em);
   }
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 40px;
+  50% {
+    transform: scale(1.15) translateY(0.5em);
   }
+}
+
+.surface1-inactive {
+  background-color: #2e2f38;
+  border: 2px solid #073888;
+  border-radius: 9px;
+  color: #89b4fa;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.gradient {
+    display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: #89b4fa;
+  background: linear-gradient(
+    to bottom,
+    #146af5 0%,
+    #146af5 10%,
+    #ffffff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
