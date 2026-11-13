@@ -1,2 +1,2 @@
-# idk tbh
-idk tbh
+# personal website
+my personal website
