@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
 </head>
+
 <body>
   <nav class="navbar">
     <a href="#"><img src="resmysticflip.png" width="25" height="25"></a>
@@ -24,19 +26,19 @@
 
   <img src="resmysticflip.png" class="centered" width="75" height="75">
   <h1 class="centered gradient bobby" style="font-size: 3rem;">cool website</h1>
-  
+
   <br>
   <p class="centered gradient">fjiasjdfsaoidfhioashfno</p>
   <br>
-  
+
   <a href="https://scam.com" class="surface1" style="margin: 0 auto; height: 50px; width: 175px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-sizing: border-box;">
     <img src="github.svg" alt="GitHub" width="35" height="35">
-    <span class="centered gradient bob-hover" style="font-size: 1.25rem;">koolind13</span>
+    <span class="centered" style="font-size: 1.25rem;">koolind13</span>
   </a>
   <br>
   <a href="https://scam.com" class="surface1" style="margin: 0 auto; height: 50px; width: 175px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-sizing: border-box;">
     <img src="youtube.svg" alt="Youtube" width="35" height="35">
-    <span class="centered gradient  bob-hover" style="font-size: 1.25rem;">koolind13</span>
+    <span class="centered" style="font-size: 1.25rem;">koolind13</span>
   </a>
   <br>
   <a class="surface1-inactive" style="margin: 0 auto; height: 50px; width: 175px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-sizing: border-box;">
@@ -45,24 +47,25 @@
   </a>
 
   <script>
-  const elements = document.querySelectorAll('.bobby'); //search for class bobby
+    const elements = document.querySelectorAll('.bobby, .surface1 span'); //search for class bobby and surface1 text/span
 
-  for (const el of elements) { //run one by one for each element
-    const text = el.textContent; //store text in here
-    let newHTML = ''; //create a new container for the modified text
+    for (const el of elements) { //run one by one for each element
+      const text = el.textContent; //store text in here
+      let newHTML = ''; //create a new container for the modified text
 
-    for (let i = 0; i < text.length; i++) { //run for the length of the text
-      let char = text[i]; //grab the current letter based on the loop
+      for (let i = 0; i < text.length; i++) { //run for the length of the text
+        let char = text[i]; //grab the current letter based on the loop
 
-      if (char === ' ') { //if text is space
-        char = '&nbsp;'; //make sure the space is still there
-      }
+        if (char === ' ') { //if text is space
+          char = '&nbsp;'; //make sure the space is still there
+          }
 
-      newHTML += `<span style="--i:${i}">${char}</span>`; //put text in span and add to newHTML
-    }
+            newHTML += `<span style="--i:${i}">${char}</span>`; //put text in span and add to newHTML
+          }
 
-    el.innerHTML = newHTML; //actually creates the html
-  }
+        el.innerHTML = newHTML; //actually creates the html
+    } 
   </script>
 </body>
+
 </html>
