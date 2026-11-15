@@ -1,85 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
-  </style>
-</head>
+  <body>
+    <nav class="navbar">
+      <!--navbar-->
+      <a href="#"><img src="resmysticflip.png" width="25" height="25" /></a>
+      <!--logo-->
+      <ul class="nav-links">
+        <li><a class="active">Home</a></li>
+        <li><a href="about.html" class="gradient glowtextless">About me</a></li>
+        <li><a href="projects.html" class="gradient glowtextless">Projects</a></li>
+      </ul>
+    </nav>
+    <br />
+    <br />
+    <!--images in no particular order-->
+    <div class="image-layer">
+      <!--left side-->
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 60px; height: auto; top: 20%; left: 10%"
+      />
+      <img
+        src="bluePlanet.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 75px; height: auto; top: 14%; left: 22%"
+      />
+      <img
+        src="star2.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 40px; height: auto; top: 28%; left: 4%"
+      />
+      <img
+        src="heart.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 50px; height: auto; top: 34%; left: 18%"
+      />
+      <img
+        src="blackHole.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 80px; height: auto; top: 43%; left: 7%"
+      />
+      <img
+        src="star3.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 52%; left: 24%"
+      />
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 45px; height: auto; top: 59%; left: 12%"
+      />
+      <img
+        src="whiteHole.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 70px; height: auto; top: 68%; left: 4%"
+      />
+      <img
+        src="star2.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 55px; height: auto; top: 75%; left: 21%"
+      />
+      <img
+        src="heart.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 40px; height: auto; top: 83%; left: 9%"
+      />
+      <img
+        src="bluePlanet.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 65px; height: auto; top: 90%; left: 19%"
+      />
+      <img
+        src="star3.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 30px; height: auto; top: 16%; left: 3%"
+      />
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 92%; left: 4%"
+      />
+      <!--middle-->
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 12%; left: 36%"
+      />
+      <img
+        src="star2.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 30px; height: auto; top: 70%; left: 49%"
+      />
+      <img
+        src="star3.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 40px; height: auto; top: 13%; left: 64%"
+      />
+      <img
+        src="heart.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 26%; left: 33%"
+      />
+      <img
+        src="bluePlanet.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 45px; height: auto; top: 24%; left: 67%"
+      />
+      <img
+        src="star2.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 48%; left: 32%"
+      />
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 40px; height: auto; top: 52%; left: 68%"
+      />
+      <img
+        src="star3.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 72%; left: 34%"
+      />
+      <img
+        src="heart.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 40px; height: auto; top: 74%; left: 65%"
+      />
+      <img
+        src="blackHole.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 50px; height: auto; top: 86%; left: 38%"
+      />
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 88%; left: 51%"
+      />
+      <img
+        src="whiteHole.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 45px; height: auto; top: 85%; left: 62%"
+      />
 
-<body>
-  <canvas id="imagesCanvas"></canvas>
-  <nav class="navbar"> <!--navbar-->
-    <a href="#"><img src="resmysticflip.png" width="25" height="25"></a> <!--logo-->
-    <ul class="nav-links">
-      <li><a class="active">Home</a></li>
-      <li><a href="about.html" class="gradient">About me</a></li>
-      <li><a href="projects.html" class="gradient">Projects</a></li>
-      <li><a href="links.html" class="gradient">Links</a></li>
-    </ul>
-  </nav>
-  <br>
-  <br>
-  <!--images in no particular order-->
-  <div class="image-layer">
+      <!--right side -->
+      <img
+        src="whiteHole.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 75px; height: auto; top: 15%; right: 12%"
+      />
+      <img
+        src="star3.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 45px; height: auto; top: 22%; right: 24%"
+      />
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 55px; height: auto; top: 30%; right: 5%"
+      />
+      <img
+        src="bluePlanet.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 70px; height: auto; top: 39%; right: 18%"
+      />
+      <img
+        src="star2.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 35px; height: auto; top: 48%; right: 7%"
+      />
+      <img
+        src="heart.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 50px; height: auto; top: 56%; right: 22%"
+      />
+      <img
+        src="blackHole.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 80px; height: auto; top: 65%; right: 9%"
+      />
+      <img
+        src="star.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 40px; height: auto; top: 74%; right: 20%"
+      />
+      <img
+        src="star3.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 50px; height: auto; top: 82%; right: 5%"
+      />
+      <img
+        src="heart.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 45px; height: auto; top: 89%; right: 16%"
+      />
+      <img
+        src="star2.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 30px; height: auto; top: 13%; right: 3%"
+      />
+      <img
+        src="bluePlanet.svg"
+        alt="Hi!"
+        class="floating-image"
+        style="width: 55px; height: auto; top: 93%; right: 6%"
+      />
+    </div>
+
+    <!--image and title-->
     <img
-    src="star.svg"
-    alt="Hi!"
-    width="60px"
-    height="auto"
-    top="20%"
-    left="10%"
-    class="floating-image">
-  </div>
+      src="resmysticflip.png"
+      alt="me!"
+      class="centered"
+      width="75"
+      height="75"
+    />
 
-  <!--image and title-->
-  <img src="resmysticflip.png" class="centered" width="75" height="75"> <!--big image in center-->
-  <h1 class="centered gradient bobby" style="font-size: 3rem;">k&nbsp;o&nbsp;o&nbsp;l&nbsp;i&nbsp;n&nbsp;d</h1> <!--big text in center-->
+    <br />
+    <h1 class="centered gradient bobby" style="font-size: 3rem">k o o l i n d</h1>
+    <p class="centered gradient">fjiasjdfsaoidfhioashfno</p> <!--i will put text here later-->
+    <!--github button-->
+    <a
+      href="https://scam.com"
+      class="surface1"
+      style="
+        margin: 0 auto;
+        height: 50px;
+        width: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+      "
+    >
+      <img src="github.svg" alt="GitHub" width="35" height="35" />
+      <span class="centered glowtext" style="font-size: 1.25rem"
+        >koolind13</span
+      >
+    </a>
+    <br />
+    <!--youtube button-->
+    <a
+      href="https://scam.com"
+      class="surface1"
+      style="
+        margin: 0 auto;
+        height: 50px;
+        width: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+      "
+    >
+      <img src="youtube.svg" alt="Youtube" width="35" height="35" />
+      <span class="centered glowtext" style="font-size: 1.25rem"
+        >koolind13</span
+      >
+    </a>
+    <br />
+    <!--discord not button-->
+    <a
+      class="surface1-inactive"
+      style="
+        margin: 0 auto;
+        height: 50px;
+        width: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+      "
+    >
+      <img src="discord.svg" alt="Discord" width="35" height="35" />
+      <span class="centered glowtextless" style="font-size: 1.25rem"
+        >koolind</span>
+    </a>
+    <br />
+    <!--slack button-->
+    <a
+      class="surface1-inactive"
+      style="
+        margin: 0 auto;
+        height: 50px;
+        width: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+      "
+    >
+      <img src="slack.svg" alt="Slack" width="35" height="35" />
+      <span class="centered glowtextless" style="font-size: 1.25rem"
+        >koolind</span>
+    </a>
+    <!--js script to separate letters for wave-->
+    <script>
+      const elements = document.querySelectorAll(".bobby, .surface1 span"); //search for class bobby and surface1 text/span
 
-  <br>
-  <p class="centered gradient">fjiasjdfsaoidfhioashfno</p> <!--i will put text here later-->
-  <br>
-  <!--github button-->
-  <a href="https://scam.com" class="surface1" style="margin: 0 auto; height: 50px; width: 175px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-sizing: border-box;">
-    <img src="github.svg" alt="GitHub" width="35" height="35">
-    <span class="centered glowtext" style="font-size: 1.25rem;">koolind13</span>
-  </a>
-  <br>
-  <!--youtube button-->
-  <a href="https://scam.com" class="surface1" style="margin: 0 auto; height: 50px; width: 175px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-sizing: border-box;">
-    <img src="youtubesvg" alt="Youtube" width="35" height="35">
-    <span class="centered glowtext" style="font-size: 1.25rem;">koolind13</span>
-  </a>
-  <br>
-  <!--discord not button-->
-  <a class="surface1-inactive" style="margin: 0 auto; height: 50px; width: 175px; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-sizing: border-box;">
-    <img src="discord.svg" alt="Discord" width="35" height="35">
-    <span class="centered glowtext" style="font-size: 1.25rem;">koolind</span>
-  </a>
-  <!--js script to separate letters for wave-->
-  <script>
-    const elements = document.querySelectorAll('.bobby, .surface1 span'); //search for class bobby and surface1 text/span
+      for (const el of elements) {
+        //run one by one for each element
+        const text = el.textContent; //store text in here
+        let newHTML = ""; //create a new container for the modified text
 
-    for (const el of elements) { //run one by one for each element
-      const text = el.textContent; //store text in here
-      let newHTML = ''; //create a new container for the modified text
+        for (let i = 0; i < text.length; i++) {
+          //run for the length of the text
+          let char = text[i]; //grab the current letter based on the loop
 
-      for (let i = 0; i < text.length; i++) { //run for the length of the text
-        let char = text[i]; //grab the current letter based on the loop
-
-        if (char === ' ') { //if text is space
-          char = '&nbsp;'; //make sure the space is still there
+          if (char === " ") {
+            //if text is space
+            char = "&nbsp;"; //make sure the space is still there
           }
 
-            newHTML += `<span style="--i:${i}">${char}</span>`; //put text in span and add to newHTML
-          }
+          newHTML += `<span style="--i:${i}">${char}</span>`; //put text in span and add to newHTML
+        }
 
         el.innerHTML = newHTML; //actually creates the html
-    } 
-  </script>
-</body>
+      }
+    </script>
+    <!--this one is to rand generate the sprites-->
+    <script>
+      const imagePool = [
+        "star.svg",
+        "star2.svg",
+        "star3.svg",
+        "heart.svg",
+        "bluePlanet.svg",
+        "whiteHole.svg",
+        "blackHole.svg"
+      ];
+
+      const floatingImages = document.querySelectorAll(".floating-image");
+
+      floatingImages.forEach((img) => {
+        const randomIndex = Math.floor(Math.random() * imagePool.length);
+        img.src = imagePool[randomIndex];
+      });
+    </script>
+  </body>
 </html>

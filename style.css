@@ -1,15 +1,16 @@
 body {
   margin: 0;
   min-height: 100vh;
+  box-sizing: border-box;
   background-color: #1e1e2e;
   color: #89b4fa;
-  font-family: 'Tiny5 Duo', monospace;
+  font-family: "Tiny5 Duo", monospace;
   text-align: center;
   padding-top: 70px;
 }
 
 .tiny5-duo-font {
-  font-family: 'Tiny5 Duo', monospace;
+  font-family: "Tiny5 Duo", monospace;
 }
 
 .centered {
@@ -25,15 +26,12 @@ h1 {
 
 .bobby span {
   display: inline-block;
-  animation: wave 1.2s ease-in-out infinite alternate;
+  animation: wave 1.2s steps(8, end) infinite alternate;
   animation-delay: calc(var(--i) * -0.15s);
 
-  filter: 
-    drop-shadow(-0.01em 0.01em 0 #5b9dff)
-    drop-shadow(-0.02em 0.01em 0 #3882ff)
-    drop-shadow(-0.03em 0.02em 0 #146af5)
-    drop-shadow(-0.04em 0.02em 0 #0e52c4)
-    drop-shadow(-0.06em 0.03em 0 #09388a)
+  filter: drop-shadow(-0.01em 0.01em 0 #5b9dff)
+    drop-shadow(-0.02em 0.01em 0 #3882ff) drop-shadow(-0.03em 0.02em 0 #146af5)
+    drop-shadow(-0.04em 0.02em 0 #0e52c4) drop-shadow(-0.06em 0.03em 0 #09388a)
     drop-shadow(-0.07em 0.03em 0.12em rgba(20, 106, 245, 0.55));
 }
 
@@ -51,8 +49,17 @@ h1 {
   border: 2px solid #89b4fa;
   border-radius: 9px;
   color: #89b4fa;
-  transform: scale(1) translateY(0);
-  transition: transform 1.5s ease-in-out;
+  scale: 1;
+  translate: 0 0;
+  transition: 
+    scale 0.4s steps(2, end), 
+    translate 0.4s steps(4, end);
+}
+
+.surface1 span {
+  display: inline-block;
+  translate: 0 0;
+  transition: translate 0.4s steps(2, end);
 }
 
 .surface1 span span {
@@ -61,33 +68,34 @@ h1 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: transform 1.5s ease;
 }
 
 .surface1:hover {
-  animation: updown 1.5s ease-in-out infinite;
+  animation: updown 1.5s steps(8, end) infinite;
+  scale: 1.15;
 }
 
 .surface1:hover span {
-  animation: waveless 0.6s ease-in-out infinite alternate;
+  animation: waveless 0.6s steps(4, end) infinite alternate;
   animation-delay: calc(var(--i) * -0.15s);
 }
 
 @keyframes updown {
-  0%, 100% {
-    transform: scale(1.15) translateY(-0.25em);
+  0%,
+  100% {
+    translate: 0 -0.25em;
   }
   50% {
-    transform: scale(1.15) translateY(0.25em);
+    translate: 0 0.25em;
   }
 }
 
 @keyframes waveless {
   0% {
-    transform: translateY(-5%);
+    translate: 0 -5%;
   }
   100% {
-    transform: translateY(5%);
+    translate: 0 5%;
   }
 }
 
@@ -96,12 +104,14 @@ h1 {
   border: 2px solid #073888;
   border-radius: 9px;
   color: #89b4fa;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .gradient,
 .gradient span {
-  background: linear-gradient( to bottom, #146af5 0%, #146af5 10%, #ffffff 100%);
+  background: linear-gradient(to bottom, #146af5 0%, #146af5 10%, #ffffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -140,7 +150,7 @@ h1 {
   padding: 1rem;
   display: block;
   font-size: 1rem;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s steps(2, end);
 }
 
 .nav-links a:hover {
@@ -149,7 +159,7 @@ h1 {
 
 .nav-links li a.active {
   color: #89b4fa;
-  background: linear-gradient( to bottom, #0348b8 0%, #385686 10%, #4f5e77 100%);
+  background: linear-gradient(to bottom, #0348b8 0%, #385686 10%, #4f5e77 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -160,7 +170,7 @@ h1 {
 }
 
 .image-layer {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -172,40 +182,39 @@ h1 {
 
 .floating-image {
   position: absolute;
-  animation: breathe 1.5s linear infinite;
+  animation: breathe 1.5s steps(1, end) infinite;
+  will-change: transform;
+  backface-visibility: hidden;
   transition: transform 1.5s;
   animation-delay: calc(-0.1s * sibling-index());
 }
 
 @keyframes breathe {
-  0%,
-  100% {
-    transform: rotate(var(--rot, 0deg)) scale(1.0);
+  0%, 100% {
+    transform: rotate(var(--rot, 0deg)) scale(0.85) translateZ(0);
   }
   25% {
-    transform: rotate(var(--rot, 0deg)) scale(1.15);
+    transform: rotate(var(--rot, 0deg)) scale(1) translateZ(0);
+  }
+  50% {
+    transform: rotate(var(--rot, 0deg)) scale(1.15) translateZ(0);
   }
   75% {
-    transform: rotate(var(--rot, 0deg)) scale(0.85);
+    transform: rotate(var(--rot, 0deg)) scale(1) translateZ(0);
   }
-}
-
-#imagesCanvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  pointer-events: none;
 }
 
 .glowtext {
-  filter: 
-    drop-shadow(-0.01em 0.01em 0 #5b9dff)
-    drop-shadow(-0.02em 0.01em 0 #3882ff)
-    drop-shadow(-0.03em 0.02em 0 #146af5)
-    drop-shadow(-0.04em 0.02em 0 #0e52c4)
-    drop-shadow(-0.06em 0.03em 0 #09388a)
+  filter: drop-shadow(-0.01em 0.01em 0 #5b9dff)
+    drop-shadow(-0.02em 0.01em 0 #3882ff) drop-shadow(-0.03em 0.02em 0 #146af5)
+    drop-shadow(-0.04em 0.02em 0 #0e52c4) drop-shadow(-0.06em 0.03em 0 #09388a)
     drop-shadow(-0.07em 0.03em 0.12em rgba(20, 106, 245, 0.55));
+}
+
+.glowtextless {
+  filter: drop-shadow(-0.005em 0.005em 0 #5b9dff)
+    drop-shadow(-0.01em 0.005em 0 #3882ff)
+    drop-shadow(-0.015em 0.01em 0 #146af5) drop-shadow(-0.02em 0.01em 0 #0e52c4)
+    drop-shadow(-0.03em 0.015em 0 #09388a)
+    drop-shadow(-0.035em 0.015em 0.6em rgba(20, 106, 245, 0.55));
 }
