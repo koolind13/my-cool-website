@@ -5,7 +5,7 @@ body {
   color: #89b4fa;
   font-family: 'Tiny5 Duo', monospace;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 70px;
 }
 
 .tiny5-duo-font {
@@ -27,6 +27,14 @@ h1 {
   display: inline-block;
   animation: wave 1.2s ease-in-out infinite alternate;
   animation-delay: calc(var(--i) * -0.15s);
+
+  filter: 
+    drop-shadow(-0.01em 0.01em 0 #5b9dff)
+    drop-shadow(-0.02em 0.01em 0 #3882ff)
+    drop-shadow(-0.03em 0.02em 0 #146af5)
+    drop-shadow(-0.04em 0.02em 0 #0e52c4)
+    drop-shadow(-0.06em 0.03em 0 #09388a)
+    drop-shadow(-0.07em 0.03em 0.12em rgba(20, 106, 245, 0.55));
 }
 
 @keyframes wave {
@@ -108,12 +116,18 @@ h1 {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1e1e2e;
   padding: 0 2rem;
   height: 60px;
+  box-sizing: border-box;
 }
 
 .nav-links {
@@ -158,8 +172,9 @@ h1 {
 
 .floating-image {
   position: absolute;
-  animation: breathe 1.5s ease-in-out infinite;
+  animation: breathe 1.5s linear infinite;
   transition: transform 1.5s;
+  animation-delay: calc(-0.1s * sibling-index());
 }
 
 @keyframes breathe {
@@ -167,7 +182,30 @@ h1 {
   100% {
     transform: rotate(var(--rot, 0deg)) scale(1.0);
   }
-  50% {
-    transform: rotate(var(--rot, 0deg)) scale(1.15)
+  25% {
+    transform: rotate(var(--rot, 0deg)) scale(1.15);
   }
+  75% {
+    transform: rotate(var(--rot, 0deg)) scale(0.85);
+  }
+}
+
+#imagesCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.glowtext {
+  filter: 
+    drop-shadow(-0.01em 0.01em 0 #5b9dff)
+    drop-shadow(-0.02em 0.01em 0 #3882ff)
+    drop-shadow(-0.03em 0.02em 0 #146af5)
+    drop-shadow(-0.04em 0.02em 0 #0e52c4)
+    drop-shadow(-0.06em 0.03em 0 #09388a)
+    drop-shadow(-0.07em 0.03em 0.12em rgba(20, 106, 245, 0.55));
 }
