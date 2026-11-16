@@ -1,9 +1,9 @@
 # My Cool Website!
 ![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/koolind/my-cool-website) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website) ![GitHub last commit](https://img.shields.io/github/last-commit/koolind13/my-cool-website) ![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
 
-It's my cool website.
-Made for Hack Club Phantom.
-Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.
+It's my cool website.\
+Made for Hack Club Phantom.\
+Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.\
 Fun fact: There are 115 images per page. (they are all in the same positions [im sorry im lazy 😭])
 
 ## Access
