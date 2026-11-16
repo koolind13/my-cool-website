@@ -15,8 +15,21 @@ body {
 
 .centered {
   text-align: center;
-  display: grid;
-  place-items: center; 
+}
+
+.centered-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {

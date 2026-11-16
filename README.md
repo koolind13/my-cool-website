@@ -1,6 +1,7 @@
 # My Personal Website
 
-Made in 6 hours for Hack Club Phantom.
+Made in for Hack Club Phantom.
+Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.
 
 ## Access
 
