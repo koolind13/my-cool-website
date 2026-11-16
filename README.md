@@ -5,6 +5,7 @@
 It's my cool website.
 Made for Hack Club Phantom.
 Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.
+Fun fact: There are 115 images per page. (they are all in the same positions [im sorry im lazy 😭])
 
 ## Access
 
