@@ -1,5 +1,6 @@
 # My Personal Website
-https://hackatime.hackclub.com/api/v1/badge/koolind/my-cool-website
+![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fhackatime.hackclub.com%2Fapi%2Fv1%2Fbadge%2Fkoolind%2Fmy-cool-website)
+
 Made for Hack Club Phantom.
 Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.
 
