@@ -1,5 +1,5 @@
 # My Cool Website!
-![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/koolind/my-cool-website)) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website) ![GitHub last commit](https://img.shields.io/github/last-commit/koolind13/my-cool-website) ![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
+![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/koolind/my-cool-website) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website) ![GitHub last commit](https://img.shields.io/github/last-commit/koolind13/my-cool-website) ![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
 
 It's my cool website.
 Made for Hack Club Phantom.
