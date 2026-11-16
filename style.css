@@ -194,18 +194,18 @@ h1 {
   height: 100%;
   z-index: -1;
   pointer-events: none;
-  animation: spin 100s linear infinite;
+  animation: spin 10s linear infinite;
 }
 
 .floating-image {
   position: absolute;
-  animation: breathe 1.5s steps(1, end) infinite;
+  animation: breathe 1.5s steps(1, end) infinite, counter-spin 10s linear infinite;
+
   will-change: transform;
   backface-visibility: hidden;
   transition: transform 1.5s;
   animation-delay: calc(-0.1s * sibling-index());
   z-index: -1;
-  animation: counter-spin 100s linear infinite; 
 }
 
 @keyframes spin {
