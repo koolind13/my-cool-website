@@ -1,5 +1,5 @@
 # My Personal Website
-![Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website) ![GitHub Repo stars](https://img.shields.io/github/stars/koolind/my-cool-website)
+![Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website) ![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
 
 
 Made for Hack Club Phantom.
