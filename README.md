@@ -6,7 +6,7 @@ Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-coo
 
 ## Access
 
-Open my [Github Pages](github.com) to see the website
+Open my [Github Pages](github.com) to see the website (Not implemented yet).
 
 ## Contributions
 
