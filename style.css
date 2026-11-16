@@ -17,21 +17,6 @@ body {
   text-align: center;
 }
 
-.centered-vertical {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.centered-horizontal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 h1 {
   font-size: 4rem;
   margin: 0 auto 45px;
@@ -100,12 +85,15 @@ h1 {
   padding: 10px;
   border: 2px solid #89b4fa;
   border-radius: 9px;
-  z-index: 0;
-  position: relative
+  z-index: 5;
+  position: relative;
+
+  width: fit-content;
+  margin: auto;
 }
 
 .surface2 span {
-  z-index: 1;
+  z-index: 7;
 }
 
 @keyframes updown {
@@ -166,6 +154,7 @@ h1 {
   padding: 0 2rem;
   height: 60px;
   box-sizing: border-box;
+  border-bottom: 2px solid #89b4fa;
 }
 
 .nav-links {
@@ -205,7 +194,7 @@ h1 {
   height: 100%;
   z-index: -1;
   pointer-events: none;
-  overflow: hidden;
+  animation: spin 100s linear infinite;
 }
 
 .floating-image {
@@ -215,6 +204,18 @@ h1 {
   backface-visibility: hidden;
   transition: transform 1.5s;
   animation-delay: calc(-0.1s * sibling-index());
+  z-index: -1;
+  animation: counter-spin 100s linear infinite; 
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes counter-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
 }
 
 @keyframes breathe {
