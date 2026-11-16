@@ -1,8 +1,7 @@
 # My Personal Website
-
-Made in for Hack Club Phantom.
+https://hackatime.hackclub.com/api/v1/badge/koolind/my-cool-website
+Made for Hack Club Phantom.
 Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.
-![Hackatime Badge](https://hackclub.com)
 
 ## Access
 
