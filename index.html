@@ -22,6 +22,18 @@
         <li><a href="projects.html" class="gradient glowtextless">Projects</a></li>
       </ul>
     </nav>
+
+    <div class="cursor">
+      <pre style="font: monospace;">
+       
+
+          ／l、      
+        （ﾟ､ ｡ ７    
+          l  ~ヽ     
+          じしf_,)ノ
+      </pre>
+
+    </div>
     <!--images in no particular order-->
     <div class="image-layer">
       <!--left side-->
@@ -307,6 +319,27 @@
       floatingImages.forEach((img) => {
         const randomIndex = Math.floor(Math.random() * imagePool.length);
         img.src = imagePool[randomIndex];
+      });
+    </script>
+    <!--this one is to set .cursor movement-->
+    <script>
+      const cursor = document.querySelector(".cursor");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.style.left = e.clientX + "px";
+        cursor.style.top = e.clientY + "px";
+      });
+
+      const interactiveElements = document.querySelectorAll("a, button, .floating-image");
+
+      interactiveElements.forEach((element) => {
+        element.addEventListener("mouseenter", () => {
+          cursor.classList.add("cursor-hover");
+        });
+
+        element.addEventListener("mouseleave", () => {
+          cursor.classList.remove("cursor-hover");
+        });
       });
     </script>
   </body>
