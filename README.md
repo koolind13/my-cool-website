@@ -8,7 +8,7 @@ Fun fact: There are 116(ish) images per page. (they are all in the same position
 
 ## Access
 
-Open my [Github Pages](https://koolind13.github.io/my-cool-website/) to see the website (Not implemented yet).
+Open my [Github Pages](https://koolind13.github.io/my-cool-website/) to see the website.
 
 ## Contributions
 
