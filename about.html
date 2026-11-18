@@ -134,55 +134,8 @@
       </p>
     </div> <!--about me text-->
     <!--js script to separate letters for wave-->
-    <script>
-      const elements = document.querySelectorAll(".bobby, .surface1 span"); //search for class bobby and surface1 text/span
-
-      for (const el of elements) {
-        //run one by one for each element
-        const text = el.textContent; //store text in here
-        let newHTML = ""; //create a new container for the modified text
-
-        for (let i = 0; i < text.length; i++) {
-          //run for the length of the text
-          let char = text[i]; //grab the current letter based on the loop
-
-          if (char === " ") {
-            //if text is space
-            char = "&nbsp;"; //make sure the space is still there
-          }
-
-          newHTML += `<span style="--i:${i}">${char}</span>`; //put text in span and add to newHTML
-        }
-
-        el.innerHTML = newHTML; //actually creates the html
-      }
-    </script>
-    <!--this one is to rand generate the sprites-->
-    <script>
-      const imagePool = [
-        "star.svg",
-        "star2.svg",
-        "star3.svg",
-        "heart.svg",
-        "bluePlanet.svg",
-        "whiteHole.svg",
-        "blackHole.svg"
-      ];
-
-      const floatingImages = document.querySelectorAll(".floating-image");
-
-      floatingImages.forEach((img) => {
-        const randomIndex = Math.floor(Math.random() * imagePool.length);
-        img.src = imagePool[randomIndex];
-      });
-    </script>
-    <script>
-      const cursor = document.querySelector(".cursor");
-
-      document.addEventListener("mousemove", (e) => {
-        cursor.style.left = e.clientX + "px";
-        cursor.style.top = e.clientY + "px";
-      });
-    </script>
+    <script defer src="text.js"></script>
+    <script defer src="imagejs.js"></script>
+    <script defer src="cursor.js"></script>
   </body>
 </html>
