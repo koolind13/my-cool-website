@@ -19,7 +19,7 @@ If you have an idea for my website, you can email me at koolind13@gmail.com.
 
 ## Deploy
 
-what???
+Download all the code as a zip, extract it to a folder, and run index.html.
 
 ## License
 
