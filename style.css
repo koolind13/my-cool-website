@@ -188,14 +188,24 @@ h1 {
 
 .image-layer {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
   pointer-events: none;
+  animation: spin 100s linear infinite;
 }
 
 .floating-image {
-  animation: breathe 1.5s steps(1, end) infinite;
-  will-change: transform, filter;
+  position: absolute;
+   animation: breathe 1.5s steps(1, end) infinite, counter-spin 100s linear infinite;
+
+  will-change: transform;
+  backface-visibility: hidden;
+  transition: transform 1.5s;
   animation-delay: calc(-0.1s * var(--sibling-index, 0));
+  z-index: -1;
 }
 
 @keyframes spin {
