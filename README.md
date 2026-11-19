@@ -22,7 +22,7 @@ Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-c
 
 ## What is this?
 
-This is my first website (if you don't count the coding class I took in middle school that basically taught me nothing). I learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
+This is my first website (if you don't count the coding class I took in middle school that basically taught me nothing). Although it was kinda boring sometimes throughout the 13 or so hours I worked on this, i learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
 
 I had a lot of problems with the js (hence the ai usage sry), and I am still planning to add a thing where I will convert the svg's into 3d objects with one pixel of depth and make them tilt to face the cursor and it will be awesome. If anybody knows how to do this without tanking my performance, please email me.
 
