@@ -55,6 +55,7 @@ The best part about this site is that you get a cool car cursor. It's just `<pre
 - **Testing:** VS Code Live Server extension & [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
 
 Some issues I had (there are a lot):
+
 - literally everything
 - rotating images
 - wavy text (especially this one)
@@ -64,6 +65,7 @@ Some issues I had (there are a lot):
 - performance (not fixed, website takes about 400mb of ram)
 
 How did I fix these?
+
 For most technical errors, I searched it up on W3Schools and also it took lots and lots of trial and error. For the other ones, they aren't fixed (yet)! If you know how to optimize my website, please email me.
 
 ---
