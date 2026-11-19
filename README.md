@@ -1,6 +1,8 @@
 # My Cool Website!
 
-<img width="1916" height="1079" alt="My website!" src="https://github.com/user-attachments/assets/f6632902-82e8-44ac-b936-d04ca38d7a3b" />
+<img width="1916" height="1079" alt="my website!" src="https://github.com/user-attachments/assets/ed5e9572-9247-4e39-86bc-1962b719fb7b" />
+
+
 
 [![Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website)](#)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website)](#)
@@ -9,7 +11,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)](#)
 
 **Live Demo:** Check out the website on [GitHub Pages](https://koolind13.github.io/my-cool-website/)!  
+
 **Made for:** [Hack Club Phantom](https://phantom.hackclub.com)
+
 **Time spent (and more analytics ig):** [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website)
 
 ---
