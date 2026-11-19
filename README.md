@@ -93,3 +93,6 @@ Licensed under the [MIT License](https://opensource.org/license/mit).
 
 ## Gallery
 <img width="1916" height="1079" alt="My website!" src="https://github.com/user-attachments/assets/f6632902-82e8-44ac-b936-d04ca38d7a3b" />
+<img width="1919" height="1079" alt="About" src="https://github.com/user-attachments/assets/3335bc74-ceb5-4fc8-9d91-11ea33bfd00b" />
+<img width="1919" height="1078" alt="Projects" src="https://github.com/user-attachments/assets/cd9cf80b-0e38-498b-b9a8-dfda7f1f3a64" />
+<img width="1919" height="1079" alt="404" src="https://github.com/user-attachments/assets/af91c75c-61d3-4488-9826-f67be3bf0554" />
