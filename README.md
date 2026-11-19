@@ -20,6 +20,19 @@ Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-c
 
 This is my first website (if you don't count the coding class I took in middle school that basically taught me nothing). I learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
 
+I had a lot of problems with the js (hence the ai usage sry), and I am still planning to add a thing where I will convert the svg's into 3d objects with one pixel of depth and make them tilt to face the cursor and it will be awesome. If anybody knows how to do this without tanking my performance, please email me.
+
+There are 4 pages, a home with my social links, an about me with random stuff (about me woah), a projects page that has nothing and is very sad, and a 404 page because why not.
+
+Also, the best part about this page is that you get a cool car cursor. It's just <pre>, so here's the ascii.
+
+'''
+            ／l、      
+          （ﾟ､ ｡ ７    
+            l  ~ヽ     
+            じしf_,)ノ
+'''
+
 I build this with no external libraries, and the website runs pretty fast. This website was made in **Visual Studio Code** and tested using the **Live Server** extension.
 
 Disclaimer: I made this with some help from AI for the js on the wavy text.
