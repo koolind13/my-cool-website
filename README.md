@@ -26,7 +26,7 @@ Although it was kinda boring sometimes throughout the 13 or so hours I worked on
 
 ---
 
-### Pages Included
+### Pages Included / Features
 - **Home:** Contains my social links
 - **About Me:** Random stuff (about me, woah)
 - **Projects:** Currently has nothing and is very sad
@@ -44,13 +44,13 @@ The best part about this site is that you get a cool car cursor. It's just `<pre
   じしf_,)ノ
 ```
 
-> **Fun fact:** There are 124(ish) images per page. They are all in the exact same positions (im sorry im lazy 😭).
+> Fun fact: There are 124(ish) images per page. They are all in the exact same positions (im sorry im lazy 😭).
 
 ---
 
 ## How It Was Made
 
-- **Languages:** Vanilla HTML, CSS, and JavaScript (no external libraries!)
+- **Languages:** HTML, CSS, and JavaScript (no external libraries!)
 - **Editor:** [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)](#)
 - **Testing:** VS Code Live Server extension & [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
 
