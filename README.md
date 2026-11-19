@@ -5,9 +5,9 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
 
 It's my cool website.\
-Made for Hack Club Phantom.\
-Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.\
-Fun fact: There are 124(ish) images per page. (they are all in the same positions [im sorry im lazy 😭])\
+Made for **Hack Club Phantom**.\
+Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website)** for this project.\
+> Fun fact: There are 124(ish) images per page. (they are all in the same positions [im sorry im lazy 😭])\
 \
 I made this with some help from AI for the js on the wavy text.\
 
@@ -19,12 +19,13 @@ Open my [Github Pages](https://koolind13.github.io/my-cool-website/) to see the 
 
 ## Contributions
 
-If you have an idea for my website, you can email me at koolind13@gmail.com.
+If you have an idea for what I can add to my website, you can email me at koolind13@gmail.com. Responses will take 1-2 business years.
 
 ## Deploy
 
-Download all the code as a zip, extract it to a folder, and run index.html.
+Download all the code as a zip, extract it to a folder, and run any of the html's.
 
 ## License
 
+All icons used belong to their respective companies.
 [MIT](https://opensource.org/license/mit)
