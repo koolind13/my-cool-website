@@ -9,9 +9,9 @@ Made for Hack Club Phantom.\
 Check out the [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website) for this project.\
 Fun fact: There are 116(ish) images per page. (they are all in the same positions [im sorry im lazy 😭])\
 \
-I made this with some help from AI for the js on the wavy text, and to help me recover my style.css when I accidentally deleted my hack club space (VM basically) with all my code in it.\
+I made this with some help from AI for the js on the wavy text.\
 
-This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing.
+This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing. I learned a lot from making this, and it was really fun. You should make your own website too. It's pretty easy and there are a lot of tutorials online.
 
 ## Access
 
