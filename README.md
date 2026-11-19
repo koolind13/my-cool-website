@@ -14,7 +14,7 @@ Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-c
 
 I made this with some help from AI for the js on the wavy text.
 
-This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing. I learned a lot from making this, and it was really fun. You should make your own website too. It's pretty easy and there are a lot of tutorials online.
+This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing. I learned a lot from making this, and it was really fun. You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
 
 ## Access
 
