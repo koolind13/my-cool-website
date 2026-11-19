@@ -58,7 +58,7 @@ Note: The website currently takes about 400MB of RAM (yikes).
 
 ---
 
-## Setup
+## Deploy
 
 Since this is a static site with no dependencies, running it is super easy:
 
