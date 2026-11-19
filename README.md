@@ -26,12 +26,12 @@ There are 4 pages, a home with my social links, an about me with random stuff (a
 
 Also, the best part about this page is that you get a cool car cursor. It's just pre, so here's the ascii.
 
-'''
+
             ／l、      
           （ﾟ､ ｡ ７    
             l  ~ヽ     
             じしf_,)ノ
-'''
+
 
 I build this with no external libraries, and the website runs pretty fast. This website was made in **Visual Studio Code** and tested using the **Live Server** extension.
 
