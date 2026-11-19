@@ -30,11 +30,12 @@ Open my [Github Pages](https://koolind13.github.io/my-cool-website/) to see the 
 
 If you have an idea for what I can add to my website, you can email me at koolind13@gmail.com. Responses will take 1-2 business years.
 
-## Deploy
+## Deploying
 
 This is a static site, so just download the code as a zip (or clone the repository), extract it to a folder, and run any of the html's.
 
 ## License
 
-All icons used belong to their respective companies.
-[MIT](https://opensource.org/license/mit)
+All icons used belong to their respective companies, and they are not associated with this website or me in any way.
+
+License: [MIT](https://opensource.org/license/mit)
