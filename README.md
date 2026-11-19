@@ -1,6 +1,7 @@
 # My Cool Website!
 
-<img width="1916" height="1079" alt="My website!" src="https://github.com/user-attachments/assets/f6632902-82e8-44ac-b936-d04ca38d7a3b" />
+<img width="1918" height="1078" alt="mi website" src="https://github.com/user-attachments/assets/d30b9c98-a565-4f1d-afd6-bcb8342a0808" />
+
 
 [![Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website)](#)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website)](#)
