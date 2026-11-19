@@ -8,27 +8,26 @@
 [![Github!](https://img.shields.io/badge/github-repo-blue?logo=github)](#)
 [![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)](#)
 
-Made in [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)](#)  
-My favorite browser: [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
+**Live Demo:** Check out the website on [GitHub Pages](https://koolind13.github.io/my-cool-website/)!  
+**Made for:** [Hack Club Phantom](https://phantom.hackclub.com)
+**Time spent (and more analytics ig):** [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website)
 
-Access the website here, on my [Github Pages](https://koolind13.github.io/my-cool-website/).
-
-This is my personal website where I have my socials and my (future) projects.  
-Made for **[Hack Club Phantom](https://phantom.hackclub.com)**. Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website)** for this project.
+-----
 
 ## What is this?
 
-This is my first website (if you don't count the coding class I took in middle school that basically taught me nothing). Although it was kinda boring sometimes throughout the 13 or so hours I worked on this, i learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
+This is my personal website where I keep my socials and my (future) projects. It's also my very first website (if you don't count the coding class I took in middle school that basically taught me nothing).
 
-I built this with no external libraries (just vanilla html, css, and js), and the website takes about 400mb of RAM (yikes). This website was made in **Visual Studio Code** and tested using the **Live Server** extension.
+Although it was kinda boring sometimes throughout the 13 or so hours I worked on it, I learned a lot and it was really fun! You should make your own website too, it's pretty accessible, and there are a lot of tutorials online.
 
-There are 4 pages:
-- A home with my social links
-- An about me with random stuff (about me woah)
-- A projects page that has nothing and is very sad
-- A 404 page because why not
+### Pages Included
+- **Home:** Contains my social links
+- **About Me:** Random stuff (about me, woah)
+- **Projects:** Currently has nothing and is very sad
+- **404 Page:** Because why not
 
-Also, the best part about this page is that you get a cool car(not cat) cursor. It's just pre text, so here's the ascii:
+### car
+The best part about this site is that you get a cool car cursor. It's just `<pre>` text, so here's the ASCII:
 
 ```text
   ／l、
@@ -37,22 +36,47 @@ Also, the best part about this page is that you get a cool car(not cat) cursor. 
   じしf_,)ノ
 ```
 
-> Fun fact: There are 124(ish) images per page. (they are all in the same positions [im sorry im lazy 😭])
+> **Fun fact:** There are 124(ish) images per page. They are all in the exact same positions (im sorry im lazy 😭).
 
-## AI Usage (uh oh) and future plans
+-----
 
-I made this with some help from AI for the js on the wavy text. I had a lot of problems with the js (hence the ai usage sry), and I am still planning to add a thing where I will convert the svg's into 3d objects with one pixel of depth and make them tilt to face the cursor and it will be awesome. If anybody knows how to do this without tanking my performance, please email me.
+## How It Was Made
 
-## Contributions
+- **Languages:** Vanilla HTML, CSS, and JavaScript (no external libraries!)
+- **Editor:** [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)](#)
+- **Testing:** VS Code Live Server extension & [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
 
-If you have an idea for what I can add to my website, you can email me at koolind13@gmail.com. Responses will take 1-2 business years.
+Note: The website currently takes about 400MB of RAM (yikes).
 
-## Deploying
+-----
 
-This is a static site, so just download the code as a zip (or clone the repository), extract it to a folder, and run any of the html's.
+## Setup
+
+Since this is a static site with no dependencies, running it is super easy:
+
+1. **Clone the repository** (or download the code as a ZIP and extract it):
+   ```sh
+   git clone https://github.com
+   cd my-cool-website
+   ```
+2. **Open the project:** Double-click `index.html` (or any of the `.html` files) to open it directly in your browser, or run it with the **Live Server** extension in VS Code.
+
+-----
+
+## AI
+
+- **AI:** AI was used to help write the JavaScript for the wavy text effect because I was running into a lot of issues getting the JS to work on my own. Everything else was made by me.
+
+-----
+
+## Future Plans & Contributions
+
+- **Future plan(s):** I'm planning to convert the SVGs into 3D objects with one pixel of depth that tilt to face the cursor. If anybody knows how to do this without completely tanking my performance, please email me or message me on Slack or Discord.
+- **Ideas?** If you have suggestions for what I can add to my website, email me at `koolind13@gmail.com`. Responses will take 1–2 business years.
+
+-----
 
 ## License
 
-All icons used belong to their respective companies, and they are not associated with this website or me in any way.
-
-License: [MIT](https://opensource.org/license/mit)
+All icons used belong to their respective companies, and they are not associated with this website or me in any way.  
+Licensed under the [MIT License](https://opensource.org/license/mit).
