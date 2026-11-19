@@ -11,7 +11,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)](#)
 
 **Live Demo:** Check out the website on [GitHub Pages](https://koolind13.github.io/my-cool-website/)!  
+
 **Made for:** [Hack Club Phantom](https://phantom.hackclub.com)
+
 **Time spent (and more analytics ig):** [Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website)
 
 -----
