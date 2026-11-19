@@ -1,6 +1,7 @@
 # My Cool Website!
 
-![GIF](mi-website.gif)
+<img width="1916" height="1079" alt="my website!" src="https://github.com/user-attachments/assets/ed5e9572-9247-4e39-86bc-1962b719fb7b" />
+
 
 
 [![Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website)](#)
