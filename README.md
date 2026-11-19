@@ -8,6 +8,8 @@ Made in [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visu
 
 My favorite browser: [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
 
+Access the website here, on my [Github Pages](https://koolind13.github.io/my-cool-website/).
+
 This is my personal website where I have my socials and my (future) projects.
 
 Made for **[Hack Club Phantom](https://phantom.hackclub.com)**.
@@ -16,15 +18,11 @@ Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-c
 
 ## What is this?
 
-This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing. I learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
+This is my first website (if you don't count the coding class I took in middle school that basically taught me nothing). I learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
 
 Disclaimer: I made this with some help from AI for the js on the wavy text.
 
 > Fun fact: There are 124(ish) images per page. (they are all in the same positions [im sorry im lazy 😭])
-
-## Access
-
-Open my [Github Pages](https://koolind13.github.io/my-cool-website/) to see the website.
 
 ## Contributions
 
