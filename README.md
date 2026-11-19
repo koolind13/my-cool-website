@@ -10,15 +10,17 @@ My favorite browser: [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Br
 
 This is my personal website where I have my socials and my (future) projects.
 
-Made for **Hack Club Phantom**.
+Made for **[Hack Club Phantom](https://phantom.hackclub.com)**.
 
 Check out the **[Hackatime](https://hackatime.hackclub.com/@koolind/project/my-cool-website)** for this project.
 
+## What is this?
+
+This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing. I learned a lot from making this, and it was really fun! You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
+
+Disclaimer: I made this with some help from AI for the js on the wavy text.
+
 > Fun fact: There are 124(ish) images per page. (they are all in the same positions [im sorry im lazy 😭])
-
-I made this with some help from AI for the js on the wavy text.
-
-This is my first website, if you don't count the coding class I took in middle school that basically taught me nothing. I learned a lot from making this, and it was really fun. You should make your own website too. It's pretty accessible, and there are a lot of tutorials online.
 
 ## Access
 
@@ -30,7 +32,7 @@ If you have an idea for what I can add to my website, you can email me at koolin
 
 ## Deploy
 
-Download all the code as a zip, extract it to a folder, and run any of the html's.
+This is a static site, so just download the code as a zip (or clone the repository), extract it to a folder, and run any of the html's.
 
 ## License
 
