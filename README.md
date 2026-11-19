@@ -1,8 +1,8 @@
 # My Cool Website!
-![Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website)
-![GitHub last commit](https://img.shields.io/github/last-commit/koolind13/my-cool-website)
-![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
+[[Hackatime Badge](https://hackatime-badge.hackclub.com/koolind/my-cool-website)](#)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/w/koolind13/my-cool-website)](#)
+[![GitHub last commit](https://img.shields.io/github/last-commit/koolind13/my-cool-website)](#)
+[![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)](#)
 
 Made in [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)](#)
 
