@@ -24,7 +24,7 @@ I had a lot of problems with the js (hence the ai usage sry), and I am still pla
 
 There are 4 pages, a home with my social links, an about me with random stuff (about me woah), a projects page that has nothing and is very sad, and a 404 page because why not.
 
-Also, the best part about this page is that you get a cool car cursor. It's just <pre>, so here's the ascii.
+Also, the best part about this page is that you get a cool car cursor. It's just pre, so here's the ascii.
 
 '''
             ／l、      
