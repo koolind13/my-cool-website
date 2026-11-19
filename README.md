@@ -4,6 +4,10 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/koolind13/my-cool-website)
 ![GitHub Repo stars](https://img.shields.io/github/stars/koolind13/my-cool-website)
 
+Made in [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)](#)
+
+My favorite browser: [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
+
 This is my personal website where I have my socials and my (future) projects.
 
 Made for **Hack Club Phantom**.
