@@ -54,7 +54,17 @@ The best part about this site is that you get a cool car cursor. It's just `<pre
 - **Editor:** [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=visualstudiocode&logoColor=white)](#)
 - **Testing:** VS Code Live Server extension & [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
 
-Note: The website currently takes about 400MB of RAM (yikes).
+Some issues I had (there are a lot):
+- literally everything
+- rotating images
+- wavy text (especially this one)
+- navbar (somehow)
+- animations for buttons
+- social anxiety about writing the about page
+- performance (not fixed, website takes about 400mb of ram)
+
+How did I fix these?
+For most technical errors, I searched it up on W3Schools and also it took lots and lots of trial and error. For the other ones, they aren't fixed (yet)! If you know how to optimize my website, please email me.
 
 ---
 
